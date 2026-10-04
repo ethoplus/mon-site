@@ -80,6 +80,18 @@ main .center p,main p.center,main blockquote,main blockquote cite,main .links a,
 .box h2{margin-top:0;color:var(--c,var(--ink))}.box>h3:first-child{margin-top:0}
 .box .price{background:var(--bg)}.box.in{background:var(--bg);margin:16px 0 0;padding:20px 22px;border-width:1.5px}.box.in h3{margin-top:0}
 @media(max-width:600px){.box{padding:20px 18px}}
+.cav{--c:#a8552f;--terra:#a8552f}
+.cavhero{display:flex;align-items:center;gap:26px;background:linear-gradient(135deg,#a8552f,#c9804f);border-radius:28px;padding:32px 34px;margin:0 0 26px;color:#fff8ee;position:relative;overflow:hidden}
+.cavhero:after{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='.16'%3E%3Cellipse cx='40' cy='50' rx='13' ry='10'/%3E%3Ccircle cx='24' cy='34' r='6'/%3E%3Ccircle cx='36' cy='26' r='6'/%3E%3Ccircle cx='48' cy='26' r='6'/%3E%3Ccircle cx='60' cy='34' r='6'/%3E%3C/g%3E%3C/svg%3E");background-size:90px;opacity:.5;pointer-events:none}
+.cavhero>*{position:relative;z-index:1}.cavhero .dog,.cavband .dog{width:112px;height:112px;border-radius:50%;object-fit:cover;border:4px solid #fff8ee;flex:none}
+.cavhero h1{color:#fff8ee!important;margin:8px 0 4px}.cavhero .lead{color:#ffe9cf;margin:0}
+.ribbon{display:inline-block;background:#fff8ee;color:#a8552f;font:600 .72rem Poppins,sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:5px 14px;border-radius:999px}
+.cavbody{background-color:var(--card);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23a8552f' fill-opacity='.09'%3E%3Cellipse cx='40' cy='50' rx='13' ry='10'/%3E%3Ccircle cx='24' cy='34' r='6'/%3E%3Ccircle cx='36' cy='26' r='6'/%3E%3Ccircle cx='48' cy='26' r='6'/%3E%3Ccircle cx='60' cy='34' r='6'/%3E%3C/g%3E%3C/svg%3E");background-size:110px;border:2px solid #a8552f;outline:2px dashed #a8552f;outline-offset:-10px;border-radius:24px;padding:34px 36px}
+.cavband{display:flex;align-items:center;gap:26px;max-width:1072px;margin:24px auto 0;border:2px dashed #a8552f;border-radius:28px;padding:26px 32px;background-color:var(--card);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23a8552f' fill-opacity='.09'%3E%3Cellipse cx='40' cy='50' rx='13' ry='10'/%3E%3Ccircle cx='24' cy='34' r='6'/%3E%3Ccircle cx='36' cy='26' r='6'/%3E%3Ccircle cx='48' cy='26' r='6'/%3E%3Ccircle cx='60' cy='34' r='6'/%3E%3C/g%3E%3C/svg%3E");background-size:100px}
+.cavband small{font:600 .72rem Poppins,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#a8552f}.cavband h3{color:#a8552f;font-size:1.5rem;margin:2px 0 6px}.cavband p{margin:0 0 10px}
+.cavgo{display:inline-block;background:#a8552f;color:#fff8ee;text-decoration:none;font-weight:600;font-size:14px;padding:9px 20px;border-radius:999px}.cavgo:hover{background:#8c4325}
+nav .sub a.cavlink{color:#a8552f;font-weight:600}
+@media(max-width:700px){.cavhero,.cavband{flex-direction:column;text-align:center;padding:26px 20px}.cavbody{padding:26px 20px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style></head><body>
 <header><nav aria-label="Navigation principale">
@@ -91,7 +103,7 @@ main .center p,main p.center,main blockquote,main blockquote cite,main .links a,
 <li><a href="index.html#consultations">Consultations</a><ul class="sub">
 <li><a href="ethotherapie.html">Éthothérapie</a></li><li><a href="psycho-corporel.html">Psycho-corporel</a></li><li><a href="psycho-pedagogie.html">Psycho-pédagogie</a></li><li><a href="psycho-pattes.html">Psycho'pattes</a></li></ul></li>
 <li><a href="colegs.html">Co'legs</a></li>
-<li><a href="infos-pratiques.html">Infos pratiques</a><ul class="sub"><li><a href="le-coin-des-cavalliers.html">Le coin des cav'alliés</a></li></ul></li>
+<li><a href="infos-pratiques.html">Infos pratiques</a><ul class="sub"><li><a class="cavlink" href="le-coin-des-cavalliers.html">🐾 Le coin des cav'alliés</a></li></ul></li>
 <li><a href="mediatheque.html">Médiathèque</a></li>
 <li><a href="#contact">Contact</a></li></ul>
 </nav></header>
