@@ -1,0 +1,20 @@
+SITE CABINET ETHOPLUS - première mouture
+
+Pour voir le site : dézippez, puis double-cliquez sur index.html.
+Tous les fichiers doivent rester dans le même dossier (le menu passe de l'un à l'autre).
+
+index.html ........................ Accueil
+a-propos.html ..................... À propos
+ethique.html ...................... Éthique
+le-binome.html .................... Le binôme
+ethotherapie.html ................. Éthothérapie
+psycho-corporel.html .............. Psycho-corporel
+psycho-pedagogie.html ............. Psycho-pédagogie
+psycho-pattes.html ................ Psycho'pattes
+colegs.html ....................... Co'legs
+infos-pratiques.html .............. Infos pratiques
+le-coin-des-cavalliers.html ....... Le coin des cav'alliés
+mediatheque.html .................. Médiathèque
+
+Textes : ceux de votre site, fautes d'orthographe corrigées.
+Pas encore intégré : les photos (Anne, Lilou, forêt...).
