@@ -98,7 +98,7 @@ nav .sub a.cavlink{color:#a8552f;font-weight:600}
 .cred span{font-weight:400}.cred span+span:before{content:"· "}.mhome{display:none}
 .chip{text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:border-color .2s,background .2s,color .2s}
 .chip i{font-style:normal;color:var(--terra)}.chip:hover{border-color:var(--terra);background:var(--bg)}
-.demande span{display:inline}.demande span+span:before{content:" · "}.demande .dt:after{content:""}
+.demande span{display:inline}.demande span:not(.dt):not(:last-child):after{content:"\00a0·"}.demande .dt:after{content:""}
 @media(max-width:820px){
  nav{padding:12px 16px;justify-content:center}
  nav>a{display:none}
@@ -118,7 +118,7 @@ nav .sub a.cavlink{color:#a8552f;font-weight:600}
  .band .kt{text-align:center;line-height:1.5}
  .chips{flex-direction:column;align-items:center;gap:10px}
  .chip{width:100%;max-width:320px;justify-content:center;padding:11px 18px}
- main .note{text-align:center!important;margin-top:20px}.note span{display:block;margin-bottom:6px}
+ main .note{text-align:center!important;margin-top:20px}.note span{display:block;margin-bottom:6px;text-wrap:balance}
  .fil{padding:24px 20px;gap:10px;text-align:center;margin:12px 16px}
  main .fil p{text-align:center!important}
  .fil h2{font-size:1.7rem}
@@ -132,11 +132,15 @@ nav .sub a.cavlink{color:#a8552f;font-weight:600}
  .ax{padding:20px 20px 18px;gap:8px;text-align:center}
  .ax .lk{padding-top:4px;justify-content:center;margin-top:0}
  .demande{border-radius:20px;padding:14px 18px;margin-top:20px;line-height:1.6}
- .demande span{display:block}.demande span+span:before{content:none}.demande .dt{font-weight:600;margin-bottom:2px}
+ .demande{text-wrap:balance}.demande .dt{display:block;font-weight:600;margin-bottom:4px}
  .eth{margin:8px 16px;padding:30px 20px;text-align:center}
  main .eth p{text-align:center!important}
  .cavband{margin:16px 16px 0}
  .doc h1,.sh h2,section h2{text-align:center}
+ main p,main li{text-align:center!important;hyphens:none;-webkit-hyphens:none;text-wrap:pretty}
+ .hero p,.fil p,.eth p,.band .kt{text-wrap:balance}
+ .contact{gap:18px}
+ .demande span:not(.dt):not(:last-child):after{content:"\00a0·"}
  footer{font-size:12.5px;padding:22px 20px 32px}
 }
 </style></head><body>
