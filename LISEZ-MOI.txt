@@ -18,3 +18,6 @@ mediatheque.html .................. Médiathèque
 
 Textes : ceux de votre site, fautes d'orthographe corrigées.
 Pas encore intégré : les photos (Anne, Lilou, forêt...).
+
+DOSSIER pdf/ (à créer à côté de index.html) - à y déposer ces fichiers, avec exactement ces noms :
+  parcours.pdf, empathie-lilou.pdf, ikigai.pdf, grille-tarifaire.pdf, sans-domicile-avec-un-chien.pdf, fiches-cavaliers.pdf
