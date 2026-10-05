@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ethoplus.com/sitemap.xml
