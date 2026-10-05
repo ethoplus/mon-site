@@ -173,13 +173,22 @@ footer{text-align:center}footer p{margin:2px 0}
  .doc li::marker{color:var(--c,var(--terra))}
 }
 
+.dbr{display:none}
 /* ===== Finitions mobile v3 ===== */
+@media(max-width:820px){.dsh{display:none}.dbr{display:inline}}
 @media(max-width:820px){
  .doc p.long{text-align:left!important;text-wrap:pretty}
  .box p,.box li{text-align:left!important}
  .box h2,.box h3{text-wrap:balance}
  main li{text-wrap:wrap!important}
  #p-infos .price{text-wrap:balance}#p-infos .price b{display:block}#p-infos .price br{display:none}
+}
+
+/* cyc-v5 */
+@media(max-width:820px){
+ .cyc{display:block!important;width:fit-content;width:-webkit-fit-content;max-width:100%;margin:8px auto 0!important;text-align:left!important}
+ .cyc>span{display:block!important;text-align:left!important;white-space:nowrap;margin:2px 0}
+ .dsh{display:none!important}.dbr{display:inline!important}
 }
 </style></head><body>
 <header><nav aria-label="Navigation principale">
@@ -197,7 +206,7 @@ footer{text-align:center}footer p{margin:2px 0}
 <li><a href="index.html#contact">Contact</a></li></ul>
 </nav></header>
 <main id="accueil"><article class="page doc on" id="p-binome"><h1>Le binôme</h1>
-<h2>Anne Michel&nbsp;- Psychologue D.E</h2><p class="lead">Éthothérapeute® &amp; Massothérapeute</p>
+<h2>Anne Michel<span class="dsh">&nbsp;-</span><br class="dbr"> Psychologue D.E</h2><p class="lead">Éthothérapeute® &amp; Massothérapeute</p>
 <p>Membre de <a href="https://istss.org/home">l'International Society for Traumatic Stress Studies (ISTSS)</a> et du Syndicat national des Psychologues (<a href="https://psychologues.org/">SNP</a>)</p>
 <p class="long">Enseignante détachée à la coopération éducative et culturelle pendant 20 ans en Europe, Amérique, Océanie.<br>Chargée de mission en ingénierie pédagogique au Moyen-Orient (en savoir plus sur mon <a href="https://b326ce0f-eedb-45e5-a838-e602aee1aee8.filesusr.com/ugd/d32cfd_362e4f989f1b4b25951d6363e020a129.pdf" target="_blank" rel="noopener">parcours</a>)</p>
 <p class="long">Premier et deuxième cycle universitaire en sciences humaines (France et États-Unis) : Psychosociologie, Psychopathologie, Psychodynamique, Clinique de l'activité, Éthologie, Anthropologie, Communication, Linguistique, et Histoire Contemporaine.</p>

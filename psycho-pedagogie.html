@@ -173,13 +173,26 @@ footer{text-align:center}footer p{margin:2px 0}
  .doc li::marker{color:var(--c,var(--terra))}
 }
 
+/* cyc-v4 */
+@media(max-width:820px){.cyc{display:grid!important;justify-content:center!important;justify-items:start!important;text-align:left!important;margin:8px auto 0}.cyc span{text-align:left!important;white-space:nowrap}}
+.dbr{display:none}
 /* ===== Finitions mobile v3 ===== */
+@media(max-width:820px){.dsh{display:none}.dbr{display:inline}}
 @media(max-width:820px){
  .doc p.long{text-align:left!important;text-wrap:pretty}
  .box p,.box li{text-align:left!important}
  .box h2,.box h3{text-wrap:balance}
  main li{text-wrap:wrap!important}
  #p-infos .price{text-wrap:balance}#p-infos .price b{display:block}#p-infos .price br{display:none}
+}
+
+@media(max-width:820px){.cyc{width:fit-content;margin:8px auto 0!important;justify-items:start!important;text-align:left!important}.cyc span{text-align:left!important}}
+
+/* cyc-v5 */
+@media(max-width:820px){
+ .cyc{display:block!important;width:fit-content;width:-webkit-fit-content;max-width:100%;margin:8px auto 0!important;text-align:left!important}
+ .cyc>span{display:block!important;text-align:left!important;white-space:nowrap;margin:2px 0}
+ .dsh{display:none!important}.dbr{display:inline!important}
 }
 </style></head><body>
 <header><nav aria-label="Navigation principale">
@@ -202,7 +215,7 @@ footer{text-align:center}footer p{margin:2px 0}
 <p>Le parent ou les parents demandeurs sont reçus seuls lors de la première séance puis avec l'<a href="ethotherapie.html">enfant/adolescent</a> si besoin.</p>
 <div class="price">Entretien individuel (une famille)<br>1h30 + compte rendu écrit<br><b>100 euros</b><br>Tarif unique<br>Présentiel uniquement</div>
 <p>Groupe de parole sur une problématique précise (plusieurs parents). Me contacter pour l'organisation et le devis.</p>
-</section><section class="box"><h2>Enseignants&nbsp;- Consultation "Souffrance au travail"</h2>
+</section><section class="box"><h2>Enseignants<span class="dsh">&nbsp;-</span><br class="dbr"> Consultation "Souffrance au travail"</h2>
 <p class="long">Enseigner c'est monter sur scène. Le corps de l'enseignant est à la fois une carte d'identité, un instrument et une armure. Scruté, souvent jugé par les adolescents, parfois moqué, il doit être un repère rassurant pour les plus jeunes et ne montrer aucune vulnérabilité.</p>
 <p class="long">Le corps du "prof" absorbe seul toutes les colères, les peurs, les inquiétudes, les questionnements ou l'enthousiasme de son public, il est le siège de toutes les somatisations d'un métier terriblement exposé. Il est également un corps social sous tension.</p>
 <p class="long">Il est donc important de l'entretenir dans sa dimension physique bien sûr mais également psychique et émotionnelle. La voix est également un instrument de travail central pour l'enseignant. Ce sujet n'est toujours pas abordé dans les formations initiales.</p>
