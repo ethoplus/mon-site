@@ -1,3 +1,20 @@
+=== STRUCTURE DU SITE (version avec porte d'entrée) ===
+
+index.html ............. page d'entrée grise : « Particulier » / « Collectivités, entreprises, institutions »
+particuliers.html ...... ancienne page d'accueil, inchangée (site particuliers : a-propos, ethique, le-binome, etc.)
+index-en.html .......... page « English version under construction » (lien « English » du menu particuliers)
+
+Partie professionnelle (style gris, blanc, noir) :
+pro.html ............... « Comment Ethoplus peut vous accompagner »
+pro-travail.html ....... clinique du travail + schéma de l'évolution des approches cliniques
+pro-crimino.html ....... criminologie et victimologie
+pro-droit-animaux.html . droit des animaux
+(pro-travail-classique/enrichi.html et pro-crimino-classique/enrichi.html : pages de réserve, non reliées pour l'instant)
+
+Garder tous les fichiers dans le même dossier. Ouvrir index.html pour commencer.
+
+----------------------------------------------------------------------
+
 SITE CABINET ETHOPLUS - première mouture
 
 Pour voir le site : dézippez, puis double-cliquez sur index.html.
